@@ -1,0 +1,36 @@
+#root{
+ /* background-color: #212121; */
+ /* background-image: url(./assets/pxfuel.jpg); */
+ background-blend-mode:darken;
+ height: 150vh;
+ width: 100vx;
+ overflow-x: hidden;
+}
+
+@font-face {
+    font-family: '3dFont'; /* Use quotes around font names with spaces */
+    src: url('./assets/strenuous 3d.ttf'); /* Proper path to your font file */
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(./assets/Roboto-Regular.ttf);
+}
+
+
+
+*{
+    font-family: 'Roboto';
+}
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+ }

@@ -1,0 +1,26 @@
+# Ignore Python bytecode files
+__pycache__/
+
+# Ignore environment-specific settings files
+*.env
+
+# Ignore log files
+*.log
+
+# Ignore compiled translations
+locale/
+
+# Ignore user-specific files
+*.swp
+*.swo
+
+# Ignore coverage reports
+htmlcov/
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.orig
+
+# Ignore virtual environment
+env/
